@@ -759,7 +759,7 @@ function arlo_tm_hamburger(){
 // custom js start //
 
 function send_mail(){
-	var subject = $("#email").val();
+	var subject = $("#name").val();
 	var body = $("#message").val();
 	window.open('mailto:arafatuddin.work@gmail.com?subject='+subject+'&body='+body);
 }
