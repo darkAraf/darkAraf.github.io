@@ -755,3 +755,9 @@ function arlo_tm_hamburger(){
 		return false;
 	});
 }
+
+// custom js start //
+
+function send_mail(){
+	window.open('mailto:arafatuddin.work@gmail.com');
+}
